@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ShenmiApp.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="fw-bold text-primary">Gestión de Usuarios</h2>
+    <a asp-action="Create" class="btn btn-primary shadow-sm">
+        <i class="bi bi-plus-circle"></i> Crear Usuario
+    </a>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+
+        <table class="table table-hover align-middle">
+            <thead class="table-primary">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.NombreUsuario)</th>
+                    <th>@Html.DisplayNameFor(model => model.ApellidoUsuario)</th>
+                    <th>@Html.DisplayNameFor(model => model.TelUsuario)</th>
+                    <th>@Html.DisplayNameFor(model => model.CorreoUsuario)</th>
+                    <th>@Html.DisplayNameFor(model => model.EstadoUsuario)</th>
+                    <th>@Html.DisplayNameFor(model => model.FechaCreacion)</th>
+                    <th>@Html.DisplayNameFor(model => model.RolIdRol)</th>
+                    <th style="width:160px">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.NombreUsuario</td>
+                        <td>@item.ApellidoUsuario</td>
+                        <td>@item.TelUsuario</td>
+                        <td>@item.CorreoUsuario</td>
+
+                        <td>
+                            @if (item.EstadoUsuario == "Activo")
+                            {
+                                <span class="badge bg-success">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Inactivo</span>
+                            }
+                        </td>
+
+                        <td>@item.FechaCreacion.ToString("yyyy-MM-dd")</td>
+
+                        <td>@item.RolIdRol</td>
+
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.IdUsuario" class="btn btn-warning btn-sm">
+                                <i class="bi bi-pencil"></i> Editar
+                            </a>
+
+                            <a asp-action="Details" asp-route-id="@item.IdUsuario" class="btn btn-info btn-sm text-white">
+                                <i class="bi bi-eye"></i> Ver
+                            </a>
+
+                            <a asp-action="Delete" asp-route-id="@item.IdUsuario" class="btn btn-danger btn-sm">
+                                <i class="bi bi-trash"></i> Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
