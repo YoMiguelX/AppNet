@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IFMJC5u1V+8=",
+  "dgSpecHash": "IOemUBhruwU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Default.Root\\Downloads\\ShenmiApp\\ShenmiApp\\ShenmiApp.csproj",
+  "projectFilePath": "C:\\Users\\Default.Root\\OneDrive\\Desktop\\Proyectos\\AppNet\\ShenmiApp\\ShenmiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Default.Root\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Default.Root\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,0 +1,62 @@
+﻿@model ShenmiApp.Models.Niveles
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Niveles</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NombreNivel" class="control-label"></label>
+                <input asp-for="NombreNivel" class="form-control" />
+                <span asp-validation-for="NombreNivel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PuntajeMinimo" class="control-label"></label>
+                <input asp-for="PuntajeMinimo" class="form-control" />
+                <span asp-validation-for="PuntajeMinimo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PuntajeMaximo" class="control-label"></label>
+                <input asp-for="PuntajeMaximo" class="form-control" />
+                <span asp-validation-for="PuntajeMaximo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Completado" class="control-label"></label>
+                <input asp-for="Completado" class="form-control" />
+                <span asp-validation-for="Completado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MundosIdMundos" class="control-label"></label>
+                <select asp-for="MundosIdMundos" class ="form-control" asp-items="ViewBag.MundosIdMundos"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="PreguntasIdPreguntas" class="control-label"></label>
+                <input asp-for="PreguntasIdPreguntas" class="form-control" />
+                <span asp-validation-for="PreguntasIdPreguntas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

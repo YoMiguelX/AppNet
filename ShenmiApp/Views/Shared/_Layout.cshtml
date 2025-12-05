@@ -10,20 +10,37 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShenmiApp</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
                     <ul class="navbar-nav ms-auto">
+
                         @if (User.Identity?.IsAuthenticated ?? false)
                         {
-                            <li class="nav-item">
-                                <span class="nav-link text-dark">Hola, @User.Identity!.Name</span>
+                            <!-- MENÚ CRUDS -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="crudMenu" role="button" data-bs-toggle="dropdown">
+                                    Administración
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="crudMenu">
+                                    <li><a class="dropdown-item" asp-controller="Usuarios" asp-action="Index">CRUD Usuarios</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Niveles" asp-action="Index">CRUD Niveles</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Preguntas" asp-action="Index">CRUD Preguntas</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Jugadors" asp-action="Index">CRUD Jugador</a></li>
+                                </ul>
                             </li>
+
+                            <li class="nav-item">
+                                <span class="nav-link text-dark">Hola, @User.Identity.Name</span>
+                            </li>
+
                             <li class="nav-item">
                                 <form asp-area="Identity" asp-page="/Account/Logout" method="post">
                                     <button type="submit" class="nav-link btn btn-link text-dark">Cerrar sesión</button>
@@ -39,11 +56,13 @@
                                 <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Registrarse</a>
                             </li>
                         }
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -55,9 +74,11 @@
             &copy; 2025 - ShenmiApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

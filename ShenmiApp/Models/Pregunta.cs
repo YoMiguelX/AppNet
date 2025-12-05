@@ -1,25 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ShenmiApp.Models;
-
-public partial class Pregunta
+namespace ShenmiApp.Models
 {
-    public int IdPreguntas { get; set; }
+    [Table("preguntas")]
+    public partial class Preguntas
+    {
+        [Key]
+        [Column("ID_PREGUNTAS")]
+        public int IdPreguntas { get; set; }
 
-    public string? TextoPregunta { get; set; }
+        [Column("TEXTO_PREGUNTA")]
+        public string? TextoPregunta { get; set; }
 
-    public string? OpcionesRespuesta { get; set; }
+        [Column("opciones_respuesta")]
+        public string? OpcionesRespuesta { get; set; }
 
-    public string? RespuestaCorrecta { get; set; }
+        [Column("respuesta_correcta")]
+        public string? RespuestaCorrecta { get; set; }
 
-    public string? Explicacion { get; set; }
+        [Column("EXPLICACION")]
+        public string? Explicacion { get; set; }
 
-    public int Puntos { get; set; }
+        [Column("PUNTOS")]
+        public int Puntos { get; set; }
 
-    public int RespuestasJugadorIdRespuestasJugador { get; set; }
+        [Column("RESPUESTAS_JUGADOR_ID_RESPUESTAS_JUGADOR")]
+        public int RespuestasJugadorIdRespuestasJugador { get; set; }
 
-    public int NivelesIdNiveles { get; set; }
+        // 👉 ESTA PROPIEDAD ES OBLIGATORIA PARA EL FK
+        [Column("NIVELES_ID_NIVELES")]
+        public int NivelesIdNiveles { get; set; }
 
-    public virtual Nivele NivelesIdNivelesNavigation { get; set; } = null!;
+        [ForeignKey("NivelesIdNiveles")]
+        public virtual Niveles NivelesIdNivelesNavigation { get; set; } = null!;
+    }
 }

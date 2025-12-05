@@ -8409,11 +8409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Default.Root\\Downloads\\ShenmiApp\\ShenmiApp\\ShenmiApp.csproj",
+      "projectUniqueName": "C:\\Users\\Default.Root\\OneDrive\\Desktop\\Proyectos\\AppNet\\ShenmiApp\\ShenmiApp.csproj",
       "projectName": "ShenmiApp",
-      "projectPath": "C:\\Users\\Default.Root\\Downloads\\ShenmiApp\\ShenmiApp\\ShenmiApp.csproj",
+      "projectPath": "C:\\Users\\Default.Root\\OneDrive\\Desktop\\Proyectos\\AppNet\\ShenmiApp\\ShenmiApp.csproj",
       "packagesPath": "C:\\Users\\Default.Root\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Default.Root\\Downloads\\ShenmiApp\\ShenmiApp\\obj\\",
+      "outputPath": "C:\\Users\\Default.Root\\OneDrive\\Desktop\\Proyectos\\AppNet\\ShenmiApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

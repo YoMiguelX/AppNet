@@ -12,5 +12,6 @@ namespace ShenmiApp.Data
 
         // TABLAS
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<ProgresoJugador> progreso_Jugadors {get ; set; }
     }
 }

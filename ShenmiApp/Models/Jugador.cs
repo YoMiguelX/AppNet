@@ -1,31 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ShenmiApp.Models;
-
-public partial class Jugador
+namespace ShenmiApp.Models
 {
-    public int IdJugador { get; set; }
+    [Table("jugador")]
+    public partial class Jugador
+    {
+        [Key]
+        [Column("ID_JUGADOR")]
+        public int IdJugador { get; set; }
 
-    public string? Nombre { get; set; }
+        [Column("NOMBRE")]
+        public string? Nombre { get; set; }
 
-    public DateTime? FechaRegistro { get; set; }
+        [Column("FECHA_REGISTRO")]
+        public DateTime? FechaRegistro { get; set; }
 
-    public DateTime? UltimaConexion { get; set; }
+        [Column("ULTIMA_CONEXION")]
+        public DateTime? UltimaConexion { get; set; }
 
-    public int ProgresoJugadorIdProgresoJugador { get; set; }
+        [Column("PROGRESO_JUGADOR_ID_PROGRESO_JUGADOR")]
+        public int ProgresoJugadorIdProgresoJugador { get; set; }
 
-    public int UsuarioIdUsuario { get; set; }
+        [Column("usuario_ID_USUARIO")]
+        public int UsuarioIdUsuario { get; set; }
 
-    public string? Estado { get; set; }
+    
 
-    public string? Progreso { get; set; }
-
-    public string? Equipo { get; set; }
-
-    public int Numero { get; set; }
-
-    public string? Posicion { get; set; }
-
-    public virtual ProgresoJugador ProgresoJugadorIdProgresoJugadorNavigation { get; set; } = null!;
+        [ForeignKey("ProgresoJugadorIdProgresoJugador")]
+        public virtual ProgresoJugador ProgresoJugadorIdProgresoJugadorNavigation { get; set; } = null!;
+    }
 }

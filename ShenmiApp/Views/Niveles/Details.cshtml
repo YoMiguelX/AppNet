@@ -1,0 +1,60 @@
+﻿@model ShenmiApp.Models.Niveles
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Niveles</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NombreNivel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NombreNivel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PuntajeMinimo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PuntajeMinimo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PuntajeMaximo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PuntajeMaximo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Completado)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Completado)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PreguntasIdPreguntas)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PreguntasIdPreguntas)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MundosIdMundosNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MundosIdMundosNavigation.IdMundos)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdNiveles">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

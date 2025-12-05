@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ShenmiApp.Models.Preguntas>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TextoPregunta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OpcionesRespuesta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RespuestaCorrecta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Explicacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Puntos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RespuestasJugadorIdRespuestasJugador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NivelesIdNivelesNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TextoPregunta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpcionesRespuesta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RespuestaCorrecta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Explicacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Puntos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RespuestasJugadorIdRespuestasJugador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelesIdNivelesNavigation.IdNiveles)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdPreguntas">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdPreguntas">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdPreguntas">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

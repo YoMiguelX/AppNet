@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShenmiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9d046fc13edab7d7c5e3a4883f099677df56b44")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShenmiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShenmiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

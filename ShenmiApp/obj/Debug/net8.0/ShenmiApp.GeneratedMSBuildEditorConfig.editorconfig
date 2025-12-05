@@ -17,93 +17,153 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShenmiApp
 build_property.RootNamespace = ShenmiApp
-build_property.ProjectDir = C:\Users\Default.Root\Downloads\ShenmiApp\ShenmiApp\
+build_property.ProjectDir = C:\Users\Default.Root\OneDrive\Desktop\Proyectos\AppNet\ShenmiApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Default.Root\Downloads\ShenmiApp\ShenmiApp
+build_property.MSBuildProjectDirectory = C:\Users\Default.Root\OneDrive\Desktop\Proyectos\AppNet\ShenmiApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Home/Index.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Home/Privacy.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Shared/Error.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Jugadors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Jugadors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Jugadors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Jugadors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Jugadors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Niveles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Niveles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Niveles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Niveles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Niveles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Preguntas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Preguntas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Preguntas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Preguntas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Preguntas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Usuarios/Create.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Usuarios/Delete.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Usuarios/Details.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Usuarios/Edit.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Usuarios/Index.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/_ViewImports.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/_ViewStart.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default.Root/Downloads/ShenmiApp/ShenmiApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Default.Root/OneDrive/Desktop/Proyectos/AppNet/ShenmiApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j0de537x7b
